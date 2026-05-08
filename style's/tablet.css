@@ -1,0 +1,221 @@
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+/* ENVABEZADO (Parte superior) */
+
+.encabezado {
+    justify-content: space-around;
+}
+
+.encabezado p {
+    display: none;
+}
+
+.contenedorParte1 {
+    display: flex;
+    width: 100%;
+    max-width: 50rem;
+    justify-content: center;
+    height: 82vh;
+    align-items: center;
+}
+
+.imagenDoulingo {
+    max-width: 50rem;
+    padding: 6rem;
+    padding-top: 3rem;
+}
+
+.botonEmpezar {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    max-width: 32rem;
+}
+
+.botonCuenta {
+    padding: 1.5rem;
+    max-width: 32rem;
+}
+
+.seccionBanderas {
+    display: flex;
+    border: 0.1rem solid rgb(161, 161, 161);
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.banderas {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.flechas {
+    width: 2.5rem;
+    height: auto;
+    margin: 0rem 0.2rem;
+}
+
+.bandera {
+    height: 100%;
+    width: auto;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(127, 128, 128);
+}
+
+.bandera img {
+    height: 80%;
+    width: auto;
+}
+
+.bandera p {
+    font-family: "Concert One", sans-serif;
+    margin-left: 1rem;
+}
+
+.contenedorPrincipal,
+.contenedorSecundario {
+    max-width: 55rem;
+}
+
+.contenido .titulo {
+    font-size: 5.5rem;
+    max-width: 60rem;
+}
+
+.contenido .botonesDescarga {
+    flex-direction: row;
+    width: 35rem;
+    justify-content: space-evenly;
+}
+
+.botonesDescarga button {
+    height: 6rem;
+    width: 15rem;
+}
+
+.textoDescarga {
+    font-size: 1.5rem;
+}
+
+.textoDescarga .resaltar {
+    font-size: 1.7rem;
+}
+
+.contenedorImagenTelefono2 {
+    height: 105rem;
+}
+
+.fondoContelefono {
+    left: -18rem;
+    top: 2rem;
+    width: 165rem;
+    height: auto;
+}
+
+#telefono1 {
+    left: -15rem;
+    top: 20rem;
+}
+
+#telefono2 {
+    width: 22rem;
+    height: auto;
+    left: 6rem;
+    top: 15rem;
+}
+
+#telefono3 {
+    width: 27rem;
+    height: auto;
+    left: 34rem;
+    top: 28rem;
+}
+
+#telefono4 {
+    display: flex;
+    bottom: 30rem;
+    left: 50rem;
+    width: 35rem;
+    height: auto;
+    overflow: hidden;
+}
+
+#telefono5 {
+    display: flex;
+    bottom: 35rem;
+    left: 80rem;
+    width: 30rem;
+    height: auto;
+    overflow: hidden;
+}
+
+.contenedorParte7 .interior {
+    max-width: 55rem;
+    align-items: center;
+}
+
+.contenedorParte7 img {
+    max-width: 50rem;
+}
+
+.botonSuper {
+    font-size: 1.5rem;
+    max-width: 25rem;
+}
+
+
+.ParteFinal {
+    max-width: 55rem;
+}
+
+.ParteFinal h2 {
+    font-size: 5rem;
+}
+
+.contenedorImagen {
+    top: -42rem;
+    align-items: end;
+}
+
+.contenedorImagen2 img {
+    width: 80rem;
+    z-index: 1000;
+}
+
+.espacios {
+    display: flex;
+    background-color: rgb(88, 204, 2);
+    width: 100%;
+    height: 19rem;
+}
